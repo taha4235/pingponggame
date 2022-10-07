@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    display:flex;
+    min-height:100vh;
+    background-color: #292929;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.hero h1{
+    color:white;
+    font-weight:500;
+    margin-bottom: 40px;
+}
+.signup-box{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    width:90%;
+    max-width:800px;
+    background:#fff;
+}
+.left-box{
+    padding:30px;
+    background-color:#6b00d5;
+    flex-basis:50%;
+    flex-grow:1;
+    color:#fff;
+}
+.right-box{
+    width:60%;
+    padding:20px;
+    flex-basis:50%;
+    flex-grow:1;
+    background-color:#fff;
+    height:300px;
+}
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0px;
+    border:1px solid #fff;
+    outline:none;
+    color:#fff;
+    font-size:13px;
+    background: transparent;
+}
+::placeholder{
+    color:#fff;
+}
+#terms{
+    margin-top:30px;
+    margin-left:-50px;
+
+}
+label{
+    font-size:14px;
+    position:absolute;
+    margin-left:-359px;
+    margin-top:29px
+}
+.left-box button{
+    width:100%;
+    background-color:#fff;
+    padding:10px;
+    border:none;
+    font-size:16px;
+    margin-top:20px;
+    cursor:pointer;
+}
+.left-box button:hover{
+    background-color:black;
+    color:#fff;
+    font-weight:500;
+}
+.right-box a{
+    display: block;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration:none;
+    color:white;
+    text-transform:capitalize;
+    width:80%;
+    height:30px;
+    border:1px solid black;
+    margin-top:20px;
+    margin-left:60px;
+    cursor:pointer;
+    padding:5px;
+    border-radius:8px;
+    background-color:black;
+}
+.right-box a span{
+    text-align: center;
+    align-items: center;
+    margin-left: 220px;
+}
